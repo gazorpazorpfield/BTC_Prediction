@@ -1,11 +1,12 @@
 import tweepy
 from textblob import TextBlob
+#To run this will need an API Key
+#You can get a free API key at Twitter API. Once you have your API key copy and paste it into the below cell. https://developer.twitter.com/en/account/get-started
+consumer_key = 'XXXXXX'
+consumer_secret = 'XXXXXXX'
 
-consumer_key = 'bqkEuU6QRRWfxUlLwZTRy6wyC'
-consumer_secret = '0g6V6NrmR24i14xhkcoPh5Y98syxSqHVEoGOHtmC8gTwOXVLQl'
-
-access_token = '1141728997-chhaQ1h3m5kkweFqjxScUHTg1JVCmlZpjfR68Di'
-access_secret = 'wKp3lbZ6cYGM40Zl4dFWGaJFssts7LLH5leCzV9xDnkZ7'
+access_token = 'XXXX'
+access_secret = 'XXXXXX'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
